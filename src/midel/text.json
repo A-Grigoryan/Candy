@@ -1,0 +1,65 @@
+[
+    {
+        "id":1,
+        "src":"https://api.grandcandy.am/api/product/getImage/1631108023532zqxMMnHvHLjxUKERgLGC637548843.jpg/400/400",
+        "title":"'Summer' chocolates",
+        "description":"Glazed pralines with orange and peanut flavor.",
+        "value" : "2,200 AMD "
+    },
+    {
+        "id":2,
+        "src":"https://api.grandcandy.am/api/product/getImage/1633348126298fZysOdLlAeUhkYqUJPNV1328487770.jpg/400/400",
+        "title":"'Holiday' pomade chocolate",
+        "description":"Pomade chocolates with fruits flavors.",
+        "value" :"1,800 AMD "
+    },
+    {
+        "id":3,
+        "src":"https://api.grandcandy.am/api/product/getImage/1631529759071pZpCJTbfRWRpgIvIrDzS121985640.jpg/400/400",
+        "title":"'Patriot' Armenian chocolate bar",
+        "description":"Chocolate bar with roasted peanut, caramel and nougat, covered with milk chocolate.",
+        "value" :"4,180 AMD "
+    },
+    {
+        "id":4,
+        "src":	"https://api.grandcandy.am/api/product/getImage/1631108520741siztHAbZxDQZZUPLFeMi2125007755.jpg/400/400",
+        "title":"'Brittle in milk chocolate'",
+        "description":"Peanut brittle covered with milk chocolate.",
+        "value" :"2,550 AMD "
+    },
+    {
+        "id":5,
+        "src":  "https://api.grandcandy.am/api/product/getImage/1631532374556eOwzkuQTVMiDrxSDlPIR1412581786.jpg/400/400",
+        "title":"'Moscow lights' chocolates",
+        "description":"Creamy chocolates with crispy rice.",
+        "value" :"3,080 AMD "
+    },
+    {
+        "id":6,
+        "src":	"https://api.grandcandy.am/api/product/getImage/1631110947301cYzsqPLxCRGGDPTYnWqv1697214452.jpg/400/400",
+        "title":"'Tropicana' chocolates",
+        "description":"Desiccated coconut, covered with milk chocolate.",
+        "value" :"3,190 AMD "
+    },
+    {
+        "id":7,
+        "src":  "https://api.grandcandy.am/api/product/getImage/1631251113476ofMGwTZIsbxRGaDdtIut1673795745.jpg/400/400",
+        "title":"'Truffle Mix' creamy chocolates",
+        "description":"'Evening Yerevan' - chocolates with hazelnut, 'Anush' - chocolates with peanut, 'Gayane' - chocolates with almond, 'Hazelnut truffle' - chocolates with hazelnut, 'Almond truffle' - chocolates with almond.",
+        "value" :"4,300 AMD "
+    },
+    {
+        "id":8,
+        "src":	"https://api.grandcandy.am/api/product/getImage/1631251104000WTyaiIGrfjkTlMimSEbz935411687.jpg/400/400",
+        "title":"'Truffle' creamy chocolates",
+        "description":"Creamy chocolates, covered with cocoa powder.",
+        "value" :"4,100 AMD "
+    },
+    {
+        "id":9,
+        "src":  "https://api.grandcandy.am/api/product/getImage/1631532207422fiVIGAnBeojjKWTzJSel1242237899.jpg/400/400",
+        "title":"'Milky Truffle' creamy chocolates",
+        "description":"Creamy chocolates, covered with milk chocolate.",
+        "value" :"3,200 AMD "
+    }
+]
