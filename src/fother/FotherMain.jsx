@@ -4,7 +4,7 @@ import SecondFother from './SecondFother'
 
 export default function FotherMain() {
     return (
-        <div className = "FothermainFlex">
+        <div className="FothermainFlex">
             <FirstFother/>
             <SecondFother/>
         </div>

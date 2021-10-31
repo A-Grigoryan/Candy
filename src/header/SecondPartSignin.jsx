@@ -10,7 +10,7 @@ export default function SecondPartSignin() {
             <i class="fas fa-shopping-cart"></i>
             </div>
             <div className="divButton">
-                <button className = "signupButton" >
+                <button className="signupButton" >
                     <span>Sign Up</span>
                 </button>
             </div>

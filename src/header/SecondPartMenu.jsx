@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {NavLink } from 'react-router-dom'
 
 export default function SecondPartMenu() {
   const products = <div>
@@ -18,17 +19,17 @@ export default function SecondPartMenu() {
   ]);
   return (
     <div className="second">
-      <a href="">
+      <NavLink to="/">
         <img src={photo} alt="" className="photoImg" />
-      </a>
+      </NavLink>
       <div className="AllMenu">
         <div className="MenuFlex">
           {menu.map((el, ind) => (
             <div key={ind}>
               <div className="Menusechtion">
-                <a href="./" className="MEnuA">
+                <NavLink to="/" className="MEnuA">
                   {el}
-                </a>
+                </NavLink>
               </div>
             </div>
           ))}

@@ -14,13 +14,13 @@ export default function Categoryes() {
         else{return "categoryesBigpart"}
     }
     return (
-        <div className = "allfirstmidelPart">
+        <div className="allfirstmidelPart">
             <div>
-                <div className = "nameCategory">categories</div>
-                <div className = "AllCategoryesPart">
+                <div className="nameCategory">categories</div>
+                <div className="AllCategoryesPart">
                     {category.categoryObj.map((el,ind) => 
-                        <div key = {ind} className = {activeStyle(ind)} onClick = {() => {toggleActive(ind)}}>
-                            <div className = "categoriesNAME">{el}</div>
+                        <div key = {ind} className={activeStyle(ind)} onClick={() => {toggleActive(ind)}}>
+                            <div className="categoriesNAME">{el}</div>
                         </div>
                     )}
                 </div>

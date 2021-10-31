@@ -4,7 +4,7 @@ import SecondPartSignin from './SecondPartSignin'
 
 export default function SecondPart() {
     return (
-        <div className = "SecondHead">
+        <div className="SecondHead">
             <SecondPartMenu/>
             <SecondPartSignin/>
         </div>

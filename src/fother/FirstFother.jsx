@@ -7,7 +7,7 @@ import First5 from './First5'
 
 export default function FirstFother() {
     return (
-        <div className = "firstFothermain">
+        <div className="firstFothermain">
             <First1/>
             <First2/>
             <First3/>

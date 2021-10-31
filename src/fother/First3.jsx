@@ -1,10 +1,11 @@
 import React from 'react'
+import {NavLink } from 'react-router-dom'
 
 export default function First3() {
     return (
         <div className = "fotherfirstPArt">
-            <a href="" className = "fotherfirstLinks">Stores</a>
-            <a href="" className = "fotherfirstLinks">Contact us</a>
+            <NavLink to="/" className="fotherfirstLinks">Stores</NavLink>
+            <NavLink to="/" className="fotherfirstLinks">Contact us</NavLink>
         </div>
     )
 }

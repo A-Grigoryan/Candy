@@ -16,14 +16,13 @@ export default function Pages() {
         }
     }
     return (
-        <div className = "PagesFlex">
+        <div className="PagesFlex">
             <div className="pagenumbers">
-                <div className = "PageNumbersDiv">
-                    <ul className = "ulPagesFlex">
+                <div className="PageNumbersDiv">
+                    <ul className="ulPagesFlex">
                         {pages.pagesNumbrs.map((el,ind) => 
-
-                            <li key = {ind} className = "pagesLi">
-                                <button className = {togglePagesActiveStyle(ind)} onClick = {() => {togglePagesActive(ind)}}>
+                            <li key = {ind} className="pagesLi">
+                                <button className={togglePagesActiveStyle(ind)} onClick={() => {togglePagesActive(ind)}}>
                                     {el}
                                     <span ></span>
                                 </button>
@@ -31,8 +30,8 @@ export default function Pages() {
                         
                         )}
                         <li>
-                            <button className = "PagesButton btnPAgesIcon">
-                                <div className ="PagesIcon">
+                            <button className="PagesButton btnPAgesIcon">
+                                <div className="PagesIcon">
                                 <i class="fas fa-angle-right"></i>
                                 </div>
                                 <span></span>
