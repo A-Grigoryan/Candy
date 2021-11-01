@@ -6,7 +6,8 @@ export default function FirstPart() {
     return (
         <div className="First">
             <div className="HeaderLinks">
-            {develop.map((el,ind)=><NavLink to="/" className="firstA" key={ind}><span>{el}</span></NavLink>)}
+            {develop.map((el,ind)=>
+            <NavLink to="/" className="firstA" key={ind}><span>{el}</span></NavLink>)}
             <div className="lang">
                 <div>
                 <div className="languages">

@@ -10,7 +10,7 @@ export default function Categoryes() {
     }
     const activeStyle = (ind) => {
         if(category.categoryObj[ind] === category.categoryActive)
-        {return "categoryesBigpart active"}
+        {return "categoryesBigpart activeCategory"}
         else{return "categoryesBigpart"}
     }
     return (
